@@ -7,15 +7,15 @@ from sklearn.ensemble import RandomForestClassifier
 # Memisahkan fitur (X) dan target (y)
 
 
-
 X_train=pd.read_csv('model/X_train.csv' ,usecols=lambda column: column not in ['Unnamed: 0', 'index'])
+y_train=pd.read_csv('model/y_train.csv' ,usecols=lambda column: column not in ['Unnamed: 0', 'index'])
 model = RandomForestClassifier()
 
 joblib.dump(model, 'model/random_forest_classifier.joblib')
 
 # Saat memuat model:
 model = joblib.load('model/random_forest_classifier.joblib')
-
+model.fit(X_train, y_train)
 
 # Fungsi untuk halaman Home
 def home():
