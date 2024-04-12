@@ -1,11 +1,13 @@
+
+
 import requests
+
 import streamlit as st
+from streamlit_lottie import st_lottie
+
 from PIL import Image
 import io
 import base64
-
-# Impor st_lottie dari modul Streamlit
-from streamlit_lottie import st_lottie
 
 st.set_page_config(
     page_title="My_Portofolio",
@@ -13,11 +15,13 @@ st.set_page_config(
     layout="wide"
 )
 
+
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
         return None
     return r.json()
+
 
 # Use local CSS
 def local_css(file_name):
@@ -66,6 +70,8 @@ with st.container():
         resized_image = resize_image("images//Foto.PNG", 400)
         st.image(resized_image)
 
+
+
 with st.container():
     st.write("---")
     left_column, center_column, right_column = st.columns(3)
@@ -105,8 +111,9 @@ with st.container():
     with right_column:
         st.title(" ")
         st.title(" ")
-        # Gunakan fungsi st_lottie untuk menampilkan animasi
         st_lottie(lottie_coding, height=500, key="coding")
+        
+
 
 with st.container():
     st.write("---")
