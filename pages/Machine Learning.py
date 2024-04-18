@@ -168,6 +168,7 @@ def home():
 
         Feel free to use the input form to make predictions or explore other features of this app.
         """)
+        
 
 # Define the Streamlit app
 def main():
