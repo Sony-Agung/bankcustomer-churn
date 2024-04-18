@@ -15,7 +15,7 @@ def resize_image(input_image_path, size):
 st.set_page_config(
     page_title="My Portfolio",
     page_icon="🏠",
-    layout="centered"
+    layout="wide"
 )
 
 # Load Lottie animation
