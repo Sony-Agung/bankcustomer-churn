@@ -143,8 +143,6 @@ def main():
                             <a class="btn btn-primary" href="https://prediksi-ergo.streamlit.app/">Application</a>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-6">
                         <div class="project">
                             <h4 class="mb-3">Predict Student Exam | EDA | ML</h4>
@@ -160,6 +158,38 @@ def main():
                             <p>The analysis of casualties in the Palestine-Israel conflict aims to understand the impact of the conflict, gather data, identify trends, and highlight the need for peace.</p>
                             <img class="image img-thumbnail mb-3" src="https://www.thesquiz.com.au/wp-content/uploads/2020/07/Shortcuts-Website-17.png" alt="Bank Customer Churn Prediction">
                             <a class="btn btn-primary" href="https://github.com/Sony-Agung/Fatalities-of-Palestine---Israel/blob/main/KORBAN_TEWAS_DALAM_KONFLIK_ISRAEL_PALESTINA_2000_2023.ipynb">View Project</a>     
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h4 class="mb-3">Credit card Details Binary Classification Problem Random Forest | EDA | Supervised Learning</h4>
+                            <p>The project aims to develop a machine learning model to identify suspicious credit card transactions, addressing security concerns amid the increasing reliance on financial technology for banking and payments.</p>
+                            <img class="image img-thumbnail mb-3" src="https://storage.googleapis.com/kaggle-datasets-images/3762169/6507180/561e51062132fd3b3538dbf6e3f4025a/dataset-cover.png" alt="Bank Customer Churn Prediction">
+                            <a class="btn btn-primary" href="https://github.com/Sony-Agung/projek/blob/main/Credit%20card%20Details%20Binary%20Classification%20Problem.ipynb">View Project</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h4 class="mb-3">HR Dataset Classificaton SVM | EDA | Supervised</h4>
+                            <p>This project aims to analyze an HR dataset to understand the factors affecting employee satisfaction and retention. Through data analysis and machine learning, we will identify patterns and trends to help improve human resource management and decision-making within the company.</p>
+                            <img class="image img-thumbnail mb-3" src="https://hranalyticslive.netlify.app/images/hranalytics.jpg" alt="Bank Customer Churn Prediction">
+                            <a class="btn btn-primary" href="https://github.com/Sony-Agung/projek/blob/main/Supervised%20II%20(svm)%20binary(yes%20or%20true).ipynb">View Project</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h4 class="mb-3">Mall Customers Clustering K-Means | EDA | Unsupervised</h4>
+                            <p>This project focuses on customer segmentation at a shopping mall. The dataset includes variables such as CustomerID, Gender, Age, Annual Income, and Spending Score. The goal is to utilize data segmentation techniques to group customers based on characteristics like age, income, and spending patterns. Understanding these customer groups allows the mall to develop more effective marketing strategies, tailor product offerings, and enhance customer satisfaction.</p>
+                            <img class="image img-thumbnail mb-3" src="https://www.aimtechnologies.co/wp-content/uploads/2023/09/customer-segmentation-social.png" alt="Bank Customer Churn Prediction">
+                            <a class="btn btn-primary" href="https://github.com/Sony-Agung/projek/blob/main/unsupervised%20I.ipynb">View Project</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h4 class="mb-3">Titanic Dataset Classification KNN,Decission Tree, Random Forest, Logistic Regression | EDA | Machine Learning</h4>
+                            <p>The aim of this project is to analyze the Titanic dataset and build a predictive model to predict whether a passenger survived or not during the Titanic disaster. By understanding the factors influencing survival, this project can provide insights into more effective rescue strategies and factors that may affect outcomes in similar emergency situations in the future.</p>
+                            <img class="image img-thumbnail mb-3" src="https://media.licdn.com/dms/image/C4D12AQHsDRbH7GXOZg/article-cover_image-shrink_720_1280/0/1604989195408?e=2147483647&v=beta&t=Sq8lv3D1ux7dlVC2R34L7Z--UWHXp4nnCw5Y8j2ciqw" alt="Bank Customer Churn Prediction">
+                            <a class="btn btn-primary" href="https://github.com/Sony-Agung/projek/blob/main/Supervised%201.ipynb">View Project</a>
                         </div>
                     </div>
                 </div>
